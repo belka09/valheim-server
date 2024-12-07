@@ -98,9 +98,9 @@ RUN apk --no-cache \
 COPY --from=steam --chown=1001 /server /server
 
 ENV \
- SERVER_NAME="Valheim Server" \
- SERVER_WORLD="Dedicated" \
- SERVER_PASSWORD="p4ssw0rd" \
+ SERVER_NAME="Belka Valheim Server" \
+ SERVER_WORLD="Belka Dedicated" \
+ SERVER_PASSWORD="123456Qq" \
  SERVER_PUBLIC="1" \
  SERVER_ADMINS="" \
  SERVER_PERMITTED="" \
